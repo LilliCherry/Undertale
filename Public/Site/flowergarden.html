@@ -4,20 +4,23 @@
 <head>
 <title>Flowerpatch</title>
 <link rel="icon" type="image/x-icon" href="../images/Flowey.png">
+<link href="/Public/global.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <style>
 @import url('http://fonts.cdnfonts.com/css/fiery-turk');
 
-body {background-color: black;
-	  background-image: url("../images/garden.png");
-	  background-size: cover;
-	  background-repeat: no-repeat;
-  	  background-position: top;}
+body {	background-color: black;
+	  	background-image: url("../images/garden.png");
+	  	background-size: cover;
+	  	background-repeat: no-repeat;
+  	  	background-position: top;
+	}
 	
 
-p	 {	float: right;
+.textflower {
+		float: right;
 	  	position: absolute;
 	  	bottom: 160px;
 	  	right:  430px;
@@ -35,27 +38,26 @@ p	 {	float: right;
 		word-spacing: 5px;
 	}	  
 
-	mark.yellow {
-    color: yellow;
-    background: none;
+.yellow {
+		color: yellow;
+    	background: none;
 	}	
 
-div.flowey {
-	float: right;
-	  position: absolute;
-	  bottom: 310px;
-	  right:  720px;
+.flowey {
+		float: right;
+	  	position: absolute;
+	  	bottom: 310px;
+	  	right:  720px;
+	}	
 
+.heartflower {
+	  	float: right;
+	  	position: absolute;
+	  	bottom: 200px;
+	  	right:  490px;
 }	
 
-div.heart {
-	float: right;
-	  position: absolute;
-	  bottom: 200px;
-	  right:  490px;
-}	
-
-div.star {
+.starflower {
 		float: right;
 		position: absolute;
 		bottom: 310px;
@@ -67,16 +69,14 @@ div.star {
 
 
 
-
 <div class="flowey"><img src="../images/undertale-flowey.png" alt="Flowey" width="500" height="500"></div>
 
-
-<p>Howdy! I'm <mark class="yellow">FLOWEY</mark>. <mark class="yellow">FLOWEY</mark> the <mark class="yellow">FLOWEY</mark>! <br>
+<p class="textflower">Howdy! I'm <mark class="yellow">FLOWEY</mark>. <mark class="yellow">FLOWEY</mark> the <mark class="yellow">FLOWEY</mark>! <br>
 <br> Hmmm... You're new to the UNDERGROUND, aren'tcha? </p>
-<div class="heart"><a href="toriel.html">
+<div class="heartflower"><a href="toriel.html">
 <img src="../images/heart.gif" alt="heart" width="50" height="50"></a></div>
-<div class="star"><a href="plains.html">
-	<img src="../images/Asterisk.png" alt="star" width="30" height="30"></div></a>
+<div class="starflower"><a href="plains.html">
+<img src="../images/Asterisk.png" alt="star" width="30" height="30"></div></a>
 
 
 </body>
